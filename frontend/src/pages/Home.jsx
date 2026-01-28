@@ -117,8 +117,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="section-title">Our Services</h2>
-            <p className="section-subtitle">
+            <h2 className="section-title text-4xl font-extrabold text-center mb-3
+               bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600
+               bg-clip-text text-transparent">Our Services</h2>
+            <p className="section-subtitle text-center text-gray-600 max-w-2xl mx-auto text-lg">
               Comprehensive hair restoration solutions tailored to your needs
             </p>
           </motion.div>
@@ -177,7 +179,9 @@ const Home = () => {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h2 className="section-title">About Ryan Clinic India</h2>
+              <h2 className="section-title text-3xl font-extrabold text-center mb-3 
+               bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 
+               bg-clip-text text-transparent">About Ryan Clinic India</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Ryan Clinic India is a premier hair restoration center specializing in advanced 
                 hair transplant techniques. We bring Turkish specialist methods to India, offering 
